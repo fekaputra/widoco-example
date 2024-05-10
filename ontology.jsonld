@@ -1,0 +1,889 @@
+[ {
+  "@id" : "http://purl.org/dc/terms/contributor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/created",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://semantics.id/ns/example#EntertainmentOne",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semantics.id/ns/example/film#establishedDate" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "1973-01-01"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://semantics.id/ns/example/film#FilmStudio"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Entertainment One"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example#MandevilleFilms",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semantics.id/ns/example/film#establishedDate" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "1955-01-01"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://semantics.id/ns/example/film#FilmStudio"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Mandeville Films"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example#WaltDisneyPictures",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semantics.id/ns/example/film#establishedDate" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "1985-06-21"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://semantics.id/ns/example/film#FilmStudio"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Walt Disney Pictures"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example#alicia_vikander",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semantics.id/ns/example/film#fullName" : [ {
+    "@value" : "Alicia Vikander"
+  } ],
+  "http://semantics.id/ns/example/film#gender" : [ {
+    "@value" : "female"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://semantics.id/ns/example/film#Actor"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example#bill_condon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semantics.id/ns/example/film#fullName" : [ {
+    "@value" : "Bill Condon"
+  } ],
+  "http://semantics.id/ns/example/film#gender" : [ {
+    "@value" : "male"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://semantics.id/ns/example/film#Director"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example#dan_stevens",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semantics.id/ns/example/film#dateOfBirth" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "1982-10-10"
+  } ],
+  "http://semantics.id/ns/example/film#fullName" : [ {
+    "@value" : "Dan Stevens"
+  } ],
+  "http://semantics.id/ns/example/film#gender" : [ {
+    "@value" : "male"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://semantics.id/ns/example/film#Actor"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example#emma_watson",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semantics.id/ns/example/film#dateOfBirth" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "1990-04-15"
+  } ],
+  "http://semantics.id/ns/example/film#fullName" : [ {
+    "@value" : "Emma Watson"
+  } ],
+  "http://semantics.id/ns/example/film#gender" : [ {
+    "@value" : "female"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://semantics.id/ns/example/film#Actor"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example#ewan_mcgregor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semantics.id/ns/example/film#dateOfBirth" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "1971-03-31"
+  } ],
+  "http://semantics.id/ns/example/film#fullName" : [ {
+    "@value" : "Ewan McGregor"
+  } ],
+  "http://semantics.id/ns/example/film#gender" : [ {
+    "@value" : "male"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://semantics.id/ns/example/film#Actor"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example#film_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semantics.id/ns/example/film#hasActor" : [ {
+    "@id" : "http://semantics.id/ns/example#ewan_mcgregor"
+  }, {
+    "@id" : "http://semantics.id/ns/example#hayley_atwell"
+  } ],
+  "http://semantics.id/ns/example/film#hasDirector" : [ {
+    "@id" : "http://semantics.id/ns/example#marc_forster"
+  } ],
+  "http://semantics.id/ns/example/film#hasFilmStudio" : [ {
+    "@id" : "http://semantics.id/ns/example#WaltDisneyPictures"
+  } ],
+  "http://semantics.id/ns/example/film#hasGenre" : [ {
+    "@id" : "http://semantics.id/ns/example/film#genre_animation"
+  }, {
+    "@id" : "http://semantics.id/ns/example/film#genre_family"
+  } ],
+  "http://semantics.id/ns/example/film#hasScriptWriter" : [ {
+    "@id" : "http://semantics.id/ns/example#writer_1"
+  }, {
+    "@id" : "http://semantics.id/ns/example#writer_2"
+  } ],
+  "http://semantics.id/ns/example/film#releaseYear" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2018"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://semantics.id/ns/example/film#Film"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Christopher Robin"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example#film_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semantics.id/ns/example/film#hasActor" : [ {
+    "@id" : "http://semantics.id/ns/example#alicia_vikander"
+  }, {
+    "@id" : "http://semantics.id/ns/example#ewan_mcgregor"
+  } ],
+  "http://semantics.id/ns/example/film#hasDirector" : [ {
+    "@id" : "http://semantics.id/ns/example#julius_avery"
+  } ],
+  "http://semantics.id/ns/example/film#hasFilmStudio" : [ {
+    "@id" : "http://semantics.id/ns/example#EntertainmentOne"
+  } ],
+  "http://semantics.id/ns/example/film#hasGenre" : [ {
+    "@id" : "http://semantics.id/ns/example/film#genre_action"
+  }, {
+    "@id" : "http://semantics.id/ns/example/film#genre_drama"
+  } ],
+  "http://semantics.id/ns/example/film#hasScriptWriter" : [ {
+    "@id" : "http://semantics.id/ns/example#julius_avery"
+  }, {
+    "@id" : "http://semantics.id/ns/example#writer_3"
+  } ],
+  "http://semantics.id/ns/example/film#releaseYear" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2014"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://semantics.id/ns/example/film#Film"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Son of a Gun"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example#film_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semantics.id/ns/example/film#hasActor" : [ {
+    "@id" : "http://semantics.id/ns/example#dan_stevens"
+  }, {
+    "@id" : "http://semantics.id/ns/example#emma_watson"
+  }, {
+    "@id" : "http://semantics.id/ns/example#ewan_mcgregor"
+  } ],
+  "http://semantics.id/ns/example/film#hasDirector" : [ {
+    "@id" : "http://semantics.id/ns/example#bill_condon"
+  } ],
+  "http://semantics.id/ns/example/film#hasFilmStudio" : [ {
+    "@id" : "http://semantics.id/ns/example#WaltDisneyPictures"
+  } ],
+  "http://semantics.id/ns/example/film#hasGenre" : [ {
+    "@id" : "http://semantics.id/ns/example/film#genre_family"
+  }, {
+    "@id" : "http://semantics.id/ns/example/film#genre_romance"
+  } ],
+  "http://semantics.id/ns/example/film#hasScriptWriter" : [ {
+    "@id" : "http://semantics.id/ns/example#writer_4"
+  }, {
+    "@id" : "http://semantics.id/ns/example#writer_5"
+  } ],
+  "http://semantics.id/ns/example/film#hasSoundtrack" : [ {
+    "@id" : "http://semantics.id/ns/example/film#Belle"
+  } ],
+  "http://semantics.id/ns/example/film#releaseYear" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2017"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://semantics.id/ns/example/film#Film"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Beauty and the Beast"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example#film_4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semantics.id/ns/example/film#hasActor" : [ {
+    "@id" : "http://semantics.id/ns/example/film#zendaya"
+  } ],
+  "http://semantics.id/ns/example/film#hasComposer" : [ {
+    "@id" : "http://semantics.id/ns/example/film#hans_zimmer"
+  } ],
+  "http://semantics.id/ns/example/film#hasGenre" : [ {
+    "@id" : "http://semantics.id/ns/example/film#genre_science_fiction"
+  } ],
+  "http://semantics.id/ns/example/film#releaseYear" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2021"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://semantics.id/ns/example/film#Film"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Dune"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example#film_5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semantics.id/ns/example/film#hasActor" : [ {
+    "@id" : "http://semantics.id/ns/example/film#kyle_maclachlan"
+  } ],
+  "http://semantics.id/ns/example/film#hasGenre" : [ {
+    "@id" : "http://semantics.id/ns/example/film#genre_science_fiction"
+  } ],
+  "http://semantics.id/ns/example/film#releaseYear" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1984"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://semantics.id/ns/example/film#Film"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Dune"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example#hayley_atwell",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semantics.id/ns/example/film#dateOfBirth" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "1982-04-05"
+  } ],
+  "http://semantics.id/ns/example/film#fullName" : [ {
+    "@value" : "Hayley Atwell"
+  } ],
+  "http://semantics.id/ns/example/film#gender" : [ {
+    "@value" : "female"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://semantics.id/ns/example/film#Actor"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example#julius_avery",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semantics.id/ns/example/film#fullName" : [ {
+    "@value" : "Julius Avery"
+  } ],
+  "http://semantics.id/ns/example/film#gender" : [ {
+    "@value" : "male"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://semantics.id/ns/example/film#Director"
+  }, {
+    "@id" : "http://semantics.id/ns/example/film#ScriptWriter"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example#marc_forster",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semantics.id/ns/example/film#fullName" : [ {
+    "@value" : "Marc Forster"
+  } ],
+  "http://semantics.id/ns/example/film#gender" : [ {
+    "@value" : "male"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://semantics.id/ns/example/film#Director"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example#writer_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semantics.id/ns/example/film#dateOfBirth" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "1966-06-07"
+  } ],
+  "http://semantics.id/ns/example/film#fullName" : [ {
+    "@value" : "Tom McCarthy"
+  } ],
+  "http://semantics.id/ns/example/film#gender" : [ {
+    "@value" : "male"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://semantics.id/ns/example/film#ScriptWriter"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example#writer_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semantics.id/ns/example/film#fullName" : [ {
+    "@value" : "Alex Ross"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://semantics.id/ns/example/film#ScriptWriter"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example#writer_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semantics.id/ns/example/film#fullName" : [ {
+    "@value" : "John Collee"
+  } ],
+  "http://semantics.id/ns/example/film#gender" : [ {
+    "@value" : "male"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://semantics.id/ns/example/film#ScriptWriter"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example#writer_4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semantics.id/ns/example/film#fullName" : [ {
+    "@value" : "Stephen Chbosky"
+  } ],
+  "http://semantics.id/ns/example/film#gender" : [ {
+    "@value" : "male"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://semantics.id/ns/example/film#ScriptWriter"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example#writer_5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semantics.id/ns/example/film#fullName" : [ {
+    "@value" : "Evan Spiliotopoulos"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://semantics.id/ns/example/film#ScriptWriter"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example/film",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/terms/contributor" : [ {
+    "@value" : "Filip Kovacevic"
+  }, {
+    "@value" : "Laura Waltersdorfer"
+  }, {
+    "@value" : "Marta Sabou"
+  } ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@value" : "2022-09-30"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "Fajar J. Ekaputra"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "An ontology about film and related concepts developed for ISS course at TU Wien."
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "The Film Ontology"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "http://semantics.id/ns/example/film/1.0.0"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example/film#Actor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Actor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://semantics.id/ns/example/film#Performer"
+  }, {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example/film#Artwork",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Artwork"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example/film#Belle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semantics.id/ns/example/film#hasPerformer" : [ {
+    "@id" : "http://semantics.id/ns/example/film#alan_menken"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://semantics.id/ns/example/film#Soundtrack"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Belle (Soundtrack Version)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@value" : "https://www.youtube.com/watch?v=piYIZaoBJMQ"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example/film#Composer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Composer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example/film#Director",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Director"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example/film#Film",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Film"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://semantics.id/ns/example/film#Artwork"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example/film#FilmStudio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "FilmStudio"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example/film#Genre",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Genre"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example/film#Performer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Performer"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example/film#ScriptWriter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "ScriptWriter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example/film#Soundtrack",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Soundtrack"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://semantics.id/ns/example/film#Artwork"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example/film#alan_menken",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semantics.id/ns/example/film#fullName" : [ {
+    "@value" : "Alan Menken"
+  } ],
+  "http://semantics.id/ns/example/film#gender" : [ {
+    "@value" : "male"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://semantics.id/ns/example/film#Composer"
+  }, {
+    "@id" : "http://semantics.id/ns/example/film#Performer"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example/film#budget",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://semantics.id/ns/example/film#Film"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "budget"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example/film#dateOfBirth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "dateOfBirth"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example/film#duration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://semantics.id/ns/example/film#Artwork"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "duration"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example/film#establishedDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://semantics.id/ns/example/film#FilmStudio"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "establishedDate"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example/film#friendOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "friendOf"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/knows"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example/film#fullName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "fullName"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example/film#gender",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "gender"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example/film#genre_action",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://semantics.id/ns/example/film#Genre"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Action"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example/film#genre_animation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://semantics.id/ns/example/film#Genre"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Animation"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example/film#genre_drama",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://semantics.id/ns/example/film#Genre"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Drama"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example/film#genre_family",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://semantics.id/ns/example/film#Genre"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Family"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example/film#genre_romance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://semantics.id/ns/example/film#Genre"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Romance"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example/film#genre_science_fiction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://semantics.id/ns/example/film#Genre"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Science Fiction"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example/film#hans_zimmer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semantics.id/ns/example/film#fullName" : [ {
+    "@value" : "Hans Zimmer"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://semantics.id/ns/example/film#Composer"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example/film#hasActor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://semantics.id/ns/example/film#Film"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "hasActor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://semantics.id/ns/example/film#Actor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://semantics.id/ns/example/film#hasPerformer"
+  } ],
+  "http://www.w3.org/2002/07/owl#minCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example/film#hasComposer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://semantics.id/ns/example/film#Film"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "hasComposer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://semantics.id/ns/example/film#Composer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://semantics.id/ns/example/film#hasCrew"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example/film#hasCrew",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://semantics.id/ns/example/film#Film"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "hasCrew"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example/film#hasDirector",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://semantics.id/ns/example/film#Film"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "hasDirector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://semantics.id/ns/example/film#Director"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://semantics.id/ns/example/film#hasCrew"
+  } ],
+  "http://www.w3.org/2002/07/owl#minCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example/film#hasFilmStudio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://semantics.id/ns/example/film#Film"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "hasFilmStudio"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://semantics.id/ns/example/film#FilmStudio"
+  } ],
+  "http://www.w3.org/2002/07/owl#minCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example/film#hasGenre",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://semantics.id/ns/example/film#Film"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "hasGenre"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://semantics.id/ns/example/film#Genre"
+  } ],
+  "http://www.w3.org/2002/07/owl#minCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example/film#hasPerformer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://semantics.id/ns/example/film#Artwork"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "hasPerformer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://semantics.id/ns/example/film#Performer"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example/film#hasScriptWriter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://semantics.id/ns/example/film#Film"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "hasScriptWriter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://semantics.id/ns/example/film#ScriptWriter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://semantics.id/ns/example/film#hasCrew"
+  } ],
+  "http://www.w3.org/2002/07/owl#minCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example/film#hasSoundtrack",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://semantics.id/ns/example/film#Film"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "hasSoundtrack"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://semantics.id/ns/example/film#Soundtrack"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example/film#kyle_maclachlan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semantics.id/ns/example/film#dateOfBirth" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "1959-02-22"
+  } ],
+  "http://semantics.id/ns/example/film#fullName" : [ {
+    "@value" : "Kyle Merritt MacLachlan"
+  } ],
+  "http://semantics.id/ns/example/film#gender" : [ {
+    "@value" : "male"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://semantics.id/ns/example/film#Actor"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example/film#prequel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://semantics.id/ns/example/film#Film"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "prequel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://semantics.id/ns/example/film#Film"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://semantics.id/ns/example/film#sequel"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example/film#releaseYear",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://semantics.id/ns/example/film#Film"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "releaseYear"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example/film#sequel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://semantics.id/ns/example/film#Film"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "sequel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://semantics.id/ns/example/film#Film"
+  } ]
+}, {
+  "@id" : "http://semantics.id/ns/example/film#zendaya",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semantics.id/ns/example/film#dateOfBirth" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "1996-09-01"
+  } ],
+  "http://semantics.id/ns/example/film#fullName" : [ {
+    "@value" : "Zendaya Maree Stoermer Coleman"
+  } ],
+  "http://semantics.id/ns/example/film#gender" : [ {
+    "@value" : "female"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://semantics.id/ns/example/film#Actor"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#date",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#minCardinality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/knows",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ]
+} ]

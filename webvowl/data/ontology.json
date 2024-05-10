@@ -1,0 +1,887 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://xmlns.com/foaf/0.1", "http://semantics.id/ns/example/film" ],
+    "title" : {
+      "undefined" : "The Film Ontology"
+    },
+    "iri" : "http://semantics.id/ns/example/film",
+    "author" : [ "Fajar J. Ekaputra" ],
+    "description" : {
+      "undefined" : "An ontology about film and related concepts developed for ISS course at TU Wien."
+    },
+    "other" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Fajar J. Ekaputra",
+        "type" : "label"
+      } ],
+      "contributor" : [ {
+        "identifier" : "contributor",
+        "language" : "undefined",
+        "value" : "Laura Waltersdorfer",
+        "type" : "label"
+      }, {
+        "identifier" : "contributor",
+        "language" : "undefined",
+        "value" : "Filip Kovacevic",
+        "type" : "label"
+      }, {
+        "identifier" : "contributor",
+        "language" : "undefined",
+        "value" : "Marta Sabou",
+        "type" : "label"
+      } ],
+      "created" : [ {
+        "identifier" : "created",
+        "language" : "undefined",
+        "value" : "2022-09-30",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "undefined",
+        "value" : "The Film Ontology",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "16",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "33",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "12",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "3",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "9",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://semantics.id/ns/example/film#FilmStudio",
+    "baseIri" : "http://semantics.id/ns/example/film",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FilmStudio",
+      "undefined" : "FilmStudio"
+    },
+    "individuals" : [ {
+      "iri" : "http://semantics.id/ns/example#EntertainmentOne",
+      "baseIri" : "http://semantics.id/ns/example",
+      "labels" : {
+        "IRI-based" : "EntertainmentOne",
+        "undefined" : "Entertainment One"
+      }
+    }, {
+      "iri" : "http://semantics.id/ns/example#MandevilleFilms",
+      "baseIri" : "http://semantics.id/ns/example",
+      "labels" : {
+        "IRI-based" : "MandevilleFilms",
+        "undefined" : "Mandeville Films"
+      }
+    }, {
+      "iri" : "http://semantics.id/ns/example#WaltDisneyPictures",
+      "baseIri" : "http://semantics.id/ns/example",
+      "labels" : {
+        "IRI-based" : "WaltDisneyPictures",
+        "undefined" : "Walt Disney Pictures"
+      }
+    } ],
+    "id" : "0"
+  }, {
+    "iri" : "http://semantics.id/ns/example/film#ScriptWriter",
+    "baseIri" : "http://semantics.id/ns/example/film",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ScriptWriter",
+      "undefined" : "ScriptWriter"
+    },
+    "individuals" : [ {
+      "iri" : "http://semantics.id/ns/example#julius_avery",
+      "baseIri" : "http://semantics.id/ns/example",
+      "labels" : {
+        "IRI-based" : "julius_avery"
+      }
+    }, {
+      "iri" : "http://semantics.id/ns/example#writer_1",
+      "baseIri" : "http://semantics.id/ns/example",
+      "labels" : {
+        "IRI-based" : "writer_1"
+      }
+    }, {
+      "iri" : "http://semantics.id/ns/example#writer_2",
+      "baseIri" : "http://semantics.id/ns/example",
+      "labels" : {
+        "IRI-based" : "writer_2"
+      }
+    }, {
+      "iri" : "http://semantics.id/ns/example#writer_3",
+      "baseIri" : "http://semantics.id/ns/example",
+      "labels" : {
+        "IRI-based" : "writer_3"
+      }
+    }, {
+      "iri" : "http://semantics.id/ns/example#writer_4",
+      "baseIri" : "http://semantics.id/ns/example",
+      "labels" : {
+        "IRI-based" : "writer_4"
+      }
+    }, {
+      "iri" : "http://semantics.id/ns/example#writer_5",
+      "baseIri" : "http://semantics.id/ns/example",
+      "labels" : {
+        "IRI-based" : "writer_5"
+      }
+    } ],
+    "id" : "10",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://semantics.id/ns/example/film#Soundtrack",
+    "baseIri" : "http://semantics.id/ns/example/film",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Soundtrack",
+      "undefined" : "Soundtrack"
+    },
+    "individuals" : [ {
+      "iri" : "http://semantics.id/ns/example/film#Belle",
+      "baseIri" : "http://semantics.id/ns/example/film",
+      "annotations" : {
+        "seeAlso" : [ {
+          "identifier" : "seeAlso",
+          "language" : "undefined",
+          "value" : "https://www.youtube.com/watch?v=piYIZaoBJMQ",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "Belle",
+        "undefined" : "Belle (Soundtrack Version)"
+      }
+    } ],
+    "id" : "17",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://semantics.id/ns/example/film#Genre",
+    "baseIri" : "http://semantics.id/ns/example/film",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Genre",
+      "undefined" : "Genre"
+    },
+    "individuals" : [ {
+      "iri" : "http://semantics.id/ns/example/film#genre_romance",
+      "baseIri" : "http://semantics.id/ns/example/film",
+      "labels" : {
+        "IRI-based" : "genre_romance",
+        "undefined" : "Romance"
+      }
+    }, {
+      "iri" : "http://semantics.id/ns/example/film#genre_animation",
+      "baseIri" : "http://semantics.id/ns/example/film",
+      "labels" : {
+        "IRI-based" : "genre_animation",
+        "undefined" : "Animation"
+      }
+    }, {
+      "iri" : "http://semantics.id/ns/example/film#genre_action",
+      "baseIri" : "http://semantics.id/ns/example/film",
+      "labels" : {
+        "IRI-based" : "genre_action",
+        "undefined" : "Action"
+      }
+    }, {
+      "iri" : "http://semantics.id/ns/example/film#genre_drama",
+      "baseIri" : "http://semantics.id/ns/example/film",
+      "labels" : {
+        "IRI-based" : "genre_drama",
+        "undefined" : "Drama"
+      }
+    }, {
+      "iri" : "http://semantics.id/ns/example/film#genre_science_fiction",
+      "baseIri" : "http://semantics.id/ns/example/film",
+      "labels" : {
+        "IRI-based" : "genre_science_fiction",
+        "en" : "Science Fiction"
+      }
+    }, {
+      "iri" : "http://semantics.id/ns/example/film#genre_family",
+      "baseIri" : "http://semantics.id/ns/example/film",
+      "labels" : {
+        "IRI-based" : "genre_family",
+        "undefined" : "Family"
+      }
+    } ],
+    "id" : "21"
+  }, {
+    "iri" : "http://semantics.id/ns/example/film#Composer",
+    "baseIri" : "http://semantics.id/ns/example/film",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Composer",
+      "undefined" : "Composer"
+    },
+    "individuals" : [ {
+      "iri" : "http://semantics.id/ns/example/film#hans_zimmer",
+      "baseIri" : "http://semantics.id/ns/example/film",
+      "labels" : {
+        "IRI-based" : "hans_zimmer"
+      }
+    }, {
+      "iri" : "http://semantics.id/ns/example/film#alan_menken",
+      "baseIri" : "http://semantics.id/ns/example/film",
+      "labels" : {
+        "IRI-based" : "alan_menken"
+      }
+    } ],
+    "id" : "23",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/Person",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Person"
+    },
+    "subClasses" : [ "30", "23", "10", "5" ],
+    "attributes" : [ "external" ],
+    "id" : "8"
+  }, {
+    "iri" : "http://semantics.id/ns/example/film#Artwork",
+    "baseIri" : "http://semantics.id/ns/example/film",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Artwork",
+      "undefined" : "Artwork"
+    },
+    "subClasses" : [ "2", "17" ],
+    "id" : "18"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "20",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#date",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "16",
+    "label" : {
+      "IRI-based" : "date"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "33",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "12",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "3",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://semantics.id/ns/example/film#Film",
+    "baseIri" : "http://semantics.id/ns/example/film",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Film",
+      "undefined" : "Film"
+    },
+    "individuals" : [ {
+      "iri" : "http://semantics.id/ns/example#film_5",
+      "baseIri" : "http://semantics.id/ns/example",
+      "labels" : {
+        "IRI-based" : "film_5",
+        "undefined" : "Dune"
+      }
+    }, {
+      "iri" : "http://semantics.id/ns/example#film_4",
+      "baseIri" : "http://semantics.id/ns/example",
+      "labels" : {
+        "IRI-based" : "film_4",
+        "undefined" : "Dune"
+      }
+    }, {
+      "iri" : "http://semantics.id/ns/example#film_3",
+      "baseIri" : "http://semantics.id/ns/example",
+      "labels" : {
+        "IRI-based" : "film_3",
+        "undefined" : "Beauty and the Beast"
+      }
+    }, {
+      "iri" : "http://semantics.id/ns/example#film_2",
+      "baseIri" : "http://semantics.id/ns/example",
+      "labels" : {
+        "IRI-based" : "film_2",
+        "undefined" : "Son of a Gun"
+      }
+    }, {
+      "iri" : "http://semantics.id/ns/example#film_1",
+      "baseIri" : "http://semantics.id/ns/example",
+      "labels" : {
+        "IRI-based" : "film_1",
+        "undefined" : "Christopher Robin"
+      }
+    } ],
+    "id" : "2",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "35",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#date",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "9",
+    "label" : {
+      "IRI-based" : "date"
+    }
+  }, {
+    "iri" : "http://semantics.id/ns/example/film#Performer",
+    "baseIri" : "http://semantics.id/ns/example/film",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Performer",
+      "undefined" : "Performer"
+    },
+    "individuals" : [ {
+      "iri" : "http://semantics.id/ns/example/film#alan_menken",
+      "baseIri" : "http://semantics.id/ns/example/film",
+      "labels" : {
+        "IRI-based" : "alan_menken"
+      }
+    } ],
+    "subClasses" : [ "30" ],
+    "id" : "37"
+  }, {
+    "iri" : "http://semantics.id/ns/example/film#Actor",
+    "baseIri" : "http://semantics.id/ns/example/film",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Actor",
+      "undefined" : "Actor"
+    },
+    "individuals" : [ {
+      "iri" : "http://semantics.id/ns/example#alicia_vikander",
+      "baseIri" : "http://semantics.id/ns/example",
+      "labels" : {
+        "IRI-based" : "alicia_vikander"
+      }
+    }, {
+      "iri" : "http://semantics.id/ns/example/film#kyle_maclachlan",
+      "baseIri" : "http://semantics.id/ns/example/film",
+      "labels" : {
+        "IRI-based" : "kyle_maclachlan"
+      }
+    }, {
+      "iri" : "http://semantics.id/ns/example#dan_stevens",
+      "baseIri" : "http://semantics.id/ns/example",
+      "labels" : {
+        "IRI-based" : "dan_stevens"
+      }
+    }, {
+      "iri" : "http://semantics.id/ns/example/film#zendaya",
+      "baseIri" : "http://semantics.id/ns/example/film",
+      "labels" : {
+        "IRI-based" : "zendaya"
+      }
+    }, {
+      "iri" : "http://semantics.id/ns/example#hayley_atwell",
+      "baseIri" : "http://semantics.id/ns/example",
+      "labels" : {
+        "IRI-based" : "hayley_atwell"
+      }
+    }, {
+      "iri" : "http://semantics.id/ns/example#ewan_mcgregor",
+      "baseIri" : "http://semantics.id/ns/example",
+      "labels" : {
+        "IRI-based" : "ewan_mcgregor"
+      }
+    }, {
+      "iri" : "http://semantics.id/ns/example#emma_watson",
+      "baseIri" : "http://semantics.id/ns/example",
+      "labels" : {
+        "IRI-based" : "emma_watson"
+      }
+    } ],
+    "id" : "30",
+    "superClasses" : [ "37", "8" ]
+  }, {
+    "iri" : "http://semantics.id/ns/example/film#Director",
+    "baseIri" : "http://semantics.id/ns/example/film",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Director",
+      "undefined" : "Director"
+    },
+    "individuals" : [ {
+      "iri" : "http://semantics.id/ns/example#julius_avery",
+      "baseIri" : "http://semantics.id/ns/example",
+      "labels" : {
+        "IRI-based" : "julius_avery"
+      }
+    }, {
+      "iri" : "http://semantics.id/ns/example#marc_forster",
+      "baseIri" : "http://semantics.id/ns/example",
+      "labels" : {
+        "IRI-based" : "marc_forster"
+      }
+    }, {
+      "iri" : "http://semantics.id/ns/example#bill_condon",
+      "baseIri" : "http://semantics.id/ns/example",
+      "labels" : {
+        "IRI-based" : "bill_condon"
+      }
+    } ],
+    "id" : "5",
+    "superClasses" : [ "8" ]
+  } ],
+  "property" : [ {
+    "id" : "1",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "4",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "7",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "11",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "13",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "15",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "19",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "22",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "24",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "25",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "27",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "28",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "29",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "31",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "32",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "34",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "38",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "39",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "40",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "41",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "14",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "43",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "26",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "6",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "42",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "44",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://semantics.id/ns/example/film#releaseYear",
+    "baseIri" : "http://semantics.id/ns/example/film",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "releaseYear",
+      "undefined" : "releaseYear"
+    },
+    "domain" : "2",
+    "attributes" : [ "datatype" ],
+    "id" : "1"
+  }, {
+    "iri" : "http://semantics.id/ns/example/film#hasDirector",
+    "baseIri" : "http://semantics.id/ns/example/film",
+    "range" : "5",
+    "annotations" : {
+      "minCardinality" : [ {
+        "identifier" : "minCardinality",
+        "language" : "undefined",
+        "value" : "1",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasDirector",
+      "undefined" : "hasDirector"
+    },
+    "superproperty" : [ "6" ],
+    "domain" : "2",
+    "attributes" : [ "object" ],
+    "id" : "4"
+  }, {
+    "iri" : "http://semantics.id/ns/example/film#dateOfBirth",
+    "baseIri" : "http://semantics.id/ns/example/film",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "dateOfBirth",
+      "undefined" : "dateOfBirth"
+    },
+    "domain" : "8",
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "7"
+  }, {
+    "iri" : "http://semantics.id/ns/example/film#gender",
+    "baseIri" : "http://semantics.id/ns/example/film",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "gender",
+      "undefined" : "gender"
+    },
+    "domain" : "8",
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "11"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/knows",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "knows"
+    },
+    "domain" : "8",
+    "subproperty" : [ "14" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "13"
+  }, {
+    "iri" : "http://semantics.id/ns/example/film#establishedDate",
+    "baseIri" : "http://semantics.id/ns/example/film",
+    "range" : "16",
+    "label" : {
+      "IRI-based" : "establishedDate",
+      "undefined" : "establishedDate"
+    },
+    "domain" : "0",
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "15"
+  }, {
+    "iri" : "http://semantics.id/ns/example/film#duration",
+    "baseIri" : "http://semantics.id/ns/example/film",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "duration",
+      "undefined" : "duration"
+    },
+    "domain" : "18",
+    "attributes" : [ "datatype" ],
+    "id" : "19"
+  }, {
+    "iri" : "http://semantics.id/ns/example/film#hasFilmStudio",
+    "baseIri" : "http://semantics.id/ns/example/film",
+    "range" : "0",
+    "annotations" : {
+      "minCardinality" : [ {
+        "identifier" : "minCardinality",
+        "language" : "undefined",
+        "value" : "1",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasFilmStudio",
+      "undefined" : "hasFilmStudio"
+    },
+    "domain" : "2",
+    "attributes" : [ "object" ],
+    "id" : "22"
+  }, {
+    "iri" : "http://semantics.id/ns/example/film#hasComposer",
+    "baseIri" : "http://semantics.id/ns/example/film",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "hasComposer",
+      "undefined" : "hasComposer"
+    },
+    "superproperty" : [ "6" ],
+    "domain" : "2",
+    "attributes" : [ "object" ],
+    "id" : "24"
+  }, {
+    "iri" : "http://semantics.id/ns/example/film#prequel",
+    "inverse" : "26",
+    "baseIri" : "http://semantics.id/ns/example/film",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "prequel",
+      "undefined" : "prequel"
+    },
+    "domain" : "2",
+    "attributes" : [ "transitive", "object" ],
+    "id" : "25"
+  }, {
+    "iri" : "http://semantics.id/ns/example/film#hasScriptWriter",
+    "baseIri" : "http://semantics.id/ns/example/film",
+    "range" : "10",
+    "annotations" : {
+      "minCardinality" : [ {
+        "identifier" : "minCardinality",
+        "language" : "undefined",
+        "value" : "1",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasScriptWriter",
+      "undefined" : "hasScriptWriter"
+    },
+    "superproperty" : [ "6" ],
+    "domain" : "2",
+    "attributes" : [ "object" ],
+    "id" : "27"
+  }, {
+    "range" : "18",
+    "domain" : "17",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "28"
+  }, {
+    "range" : "8",
+    "domain" : "10",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "29"
+  }, {
+    "range" : "18",
+    "domain" : "2",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "31"
+  }, {
+    "range" : "8",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "32"
+  }, {
+    "iri" : "http://semantics.id/ns/example/film#budget",
+    "baseIri" : "http://semantics.id/ns/example/film",
+    "range" : "35",
+    "label" : {
+      "IRI-based" : "budget",
+      "undefined" : "budget"
+    },
+    "domain" : "2",
+    "attributes" : [ "datatype" ],
+    "id" : "34"
+  }, {
+    "range" : "37",
+    "domain" : "30",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "36"
+  }, {
+    "range" : "8",
+    "domain" : "30",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "38"
+  }, {
+    "range" : "8",
+    "domain" : "23",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "39"
+  }, {
+    "iri" : "http://semantics.id/ns/example/film#hasGenre",
+    "baseIri" : "http://semantics.id/ns/example/film",
+    "range" : "21",
+    "annotations" : {
+      "minCardinality" : [ {
+        "identifier" : "minCardinality",
+        "language" : "undefined",
+        "value" : "1",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasGenre",
+      "undefined" : "hasGenre"
+    },
+    "domain" : "2",
+    "attributes" : [ "object" ],
+    "id" : "40"
+  }, {
+    "iri" : "http://semantics.id/ns/example/film#hasPerformer",
+    "baseIri" : "http://semantics.id/ns/example/film",
+    "range" : "37",
+    "label" : {
+      "IRI-based" : "hasPerformer",
+      "undefined" : "hasPerformer"
+    },
+    "domain" : "18",
+    "subproperty" : [ "42" ],
+    "attributes" : [ "object" ],
+    "id" : "41"
+  }, {
+    "iri" : "http://semantics.id/ns/example/film#friendOf",
+    "baseIri" : "http://semantics.id/ns/example/film",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "friendOf",
+      "undefined" : "friendOf"
+    },
+    "superproperty" : [ "13" ],
+    "domain" : "8",
+    "attributes" : [ "symmetric", "object" ],
+    "id" : "14"
+  }, {
+    "iri" : "http://semantics.id/ns/example/film#fullName",
+    "baseIri" : "http://semantics.id/ns/example/film",
+    "range" : "33",
+    "label" : {
+      "IRI-based" : "fullName",
+      "undefined" : "fullName"
+    },
+    "domain" : "8",
+    "attributes" : [ "datatype" ],
+    "id" : "43"
+  }, {
+    "iri" : "http://semantics.id/ns/example/film#sequel",
+    "baseIri" : "http://semantics.id/ns/example/film",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "sequel",
+      "undefined" : "sequel"
+    },
+    "domain" : "2",
+    "attributes" : [ "transitive", "object" ],
+    "id" : "26"
+  }, {
+    "iri" : "http://semantics.id/ns/example/film#hasCrew",
+    "baseIri" : "http://semantics.id/ns/example/film",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "hasCrew",
+      "undefined" : "hasCrew"
+    },
+    "domain" : "2",
+    "subproperty" : [ "24", "4", "27" ],
+    "attributes" : [ "object" ],
+    "id" : "6"
+  }, {
+    "iri" : "http://semantics.id/ns/example/film#hasActor",
+    "baseIri" : "http://semantics.id/ns/example/film",
+    "range" : "30",
+    "annotations" : {
+      "minCardinality" : [ {
+        "identifier" : "minCardinality",
+        "language" : "undefined",
+        "value" : "1",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasActor",
+      "undefined" : "hasActor"
+    },
+    "superproperty" : [ "41" ],
+    "domain" : "2",
+    "attributes" : [ "object" ],
+    "id" : "42"
+  }, {
+    "iri" : "http://semantics.id/ns/example/film#hasSoundtrack",
+    "baseIri" : "http://semantics.id/ns/example/film",
+    "range" : "17",
+    "label" : {
+      "IRI-based" : "hasSoundtrack",
+      "undefined" : "hasSoundtrack"
+    },
+    "domain" : "2",
+    "attributes" : [ "object" ],
+    "id" : "44"
+  } ]
+}

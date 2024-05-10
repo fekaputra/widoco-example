@@ -1,0 +1,17 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix : <> .
+<http://semantics.id/ns/example/film/1.0.0> a prov:Entity;
+	 dc:title "The Film Ontology";
+	 prov:wasAttributedTo :agent0;
+	 prov:wasAttributedTo :agent1;
+	 prov:wasAttributedTo :agent2;
+	 prov:wasAttributedTo :agent3;
+	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
+	 prov:wasGeneratedAt "2022-09-30";
+.
+:agent0 a prov:Agent; foaf:name "Fajar J. Ekaputra".
+:agent1 a prov:Agent; foaf:name "Filip Kovacevic".
+:agent2 a prov:Agent; foaf:name "Laura Waltersdorfer".
+:agent3 a prov:Agent; foaf:name "Marta Sabou".
